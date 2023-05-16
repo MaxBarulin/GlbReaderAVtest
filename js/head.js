@@ -41,9 +41,9 @@ function init() {
     camera.lookAt(new THREE.Vector3(0, 0, 0));
 
     const loader = new THREE.GLTFLoader();
-    loader.load('./models/Horse.glb', gltf => {
+    loader.load('./models/WS_V4.8.8mm.glb', gltf => {
         mesh = gltf.scene.children[0];
-        mesh.scale.set(1, 1, 1);
+        mesh.scale.set(.1, .1, .1);
         scene.add(mesh);
 
         mixer = new THREE.AnimationMixer(mesh);
