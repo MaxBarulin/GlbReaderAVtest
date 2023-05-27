@@ -51,19 +51,19 @@ function init() {
         mixer.clipAction(gltf.animations[0]).setDuration(2).play();
     })
 
-    /* lights 
+    
     const skyColor = '#c3c3c3';  // light blue
     const groundColor = '#ffffff';  // brownish orange
-    const intensity = 1;
+    const intensity = 2;
     const light = new THREE.HemisphereLight(skyColor, groundColor, intensity);
-    scene.add(light);*/
-
+    scene.add(light);
+    /*
     const skyColor = '#c3c3c3';  // light blue
     const groundColor = '#ffffff';  // brownish orange
     const intensity = 2;
     const light = new THREE.HemisphereLight(0xefefff, 10.5);
     scene.add(light);
-
+*/
     /*const light1 = new THREE.DirectionalLight(0xefefff, 20.5);
     light1.position.set(1, 1, 1).normalize();
     scene.add(light1);
