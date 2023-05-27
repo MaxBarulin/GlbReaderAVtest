@@ -75,7 +75,7 @@ function init() {
 
     /* camera controls */
     controls = new THREE.OrbitControls(camera, renderer.domElement);
-    controls.maxDistance = 25;
+    controls.maxDistance = 35;
     controls.minDistance = 5;
     controls.enableDamping = true;
     controls.dampingFactor = 0.25;
