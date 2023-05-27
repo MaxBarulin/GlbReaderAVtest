@@ -44,7 +44,7 @@ function init() {
     loader.load('./models/WS_V44444.gltf', gltf => {
         mesh = gltf.scene.children[0];
         mesh.scale.set(.1, .1, .1);
-        mesh.position.x(-1)
+        mesh.position.x(0)
         scene.add(mesh);
 
         mixer = new THREE.AnimationMixer(mesh);
