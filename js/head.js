@@ -58,19 +58,19 @@ function init() {
     const light = new THREE.HemisphereLight(skyColor, groundColor, intensity);
     scene.add(light);*/
 
-    /*const skyColor = '#c3c3c3';  // light blue
+    const skyColor = '#c3c3c3';  // light blue
     const groundColor = '#ffffff';  // brownish orange
     const intensity = 1;
     const light = new THREE.HemisphereLight(0xefefff, 10.5);
-    scene.add(light);*/
+    scene.add(light);
 
-    const light1 = new THREE.DirectionalLight(0xefefff, 20.5);
+    /*const light1 = new THREE.DirectionalLight(0xefefff, 20.5);
     light1.position.set(1, 1, 1).normalize();
     scene.add(light1);
 
     const light2 = new THREE.DirectionalLight(0xffefef, 20.5);
     light2.position.set(- 1, - 1, - 1).normalize();
-    scene.add(light2);
+    scene.add(light2);*/
 
 
     /* camera controls */
