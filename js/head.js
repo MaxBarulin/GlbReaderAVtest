@@ -54,7 +54,7 @@ function init() {
     
     const skyColor = '#c3c3c3';  // light blue
     const groundColor = '#ffffff';  // brownish orange
-    const intensity = 2;
+    const intensity = 1;
     const light = new THREE.HemisphereLight(skyColor, groundColor, intensity);
     scene.add(light);
     /*
