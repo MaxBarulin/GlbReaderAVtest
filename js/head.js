@@ -43,7 +43,7 @@ function init() {
     const loader = new THREE.GLTFLoader();
     loader.load('./models/WS_V44444.gltf', gltf => {
         mesh = gltf.scene.children[0];
-        mesh.scale.set(.1, .1, .1);
+        mesh.scale.set(.01, .01, .01);
         scene.add(mesh);
 
         mixer = new THREE.AnimationMixer(mesh);
