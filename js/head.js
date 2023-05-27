@@ -81,8 +81,8 @@ function init() {
     controls.dampingFactor = 0.25;
     controls.enablePan = false;
 
-    /* var gridXZ = new THREE.GridHelper(10, 10);
-    scene.add(gridXZ); */
+    var gridXZ = new THREE.GridHelper(10, 10);
+    scene.add(gridXZ);
 
 }
 
