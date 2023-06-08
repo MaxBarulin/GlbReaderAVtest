@@ -43,7 +43,7 @@ function init() {
     const loader = new THREE.GLTFLoader();
     loader.load('./models/WS.gltf', gltf => {
         mesh = gltf.scene.children[0];
-        mesh.scale.set(.001, .001, .001);
+        mesh.scale.set(.01, .01, .01);
         /*mesh.position.x(0)*/
         scene.add(mesh);
 
