@@ -41,7 +41,7 @@ function init() {
     camera.lookAt(new THREE.Vector3(0, 0, 0));
 
     const loader = new THREE.GLTFLoader();
-    loader.load('./models/WS1.gltf', gltf => {
+    loader.load('./models/WS.gltf', gltf => {
         mesh = gltf.scene.children[0];
         mesh.scale.set(1, 1, 1);
         /*mesh.position.x(0)*/
