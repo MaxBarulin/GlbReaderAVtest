@@ -37,15 +37,15 @@ function init() {
     /* camera */
     camera = new THREE.PerspectiveCamera(45, width / height, 1, 10000);
     camera.position.y = 160;
-    camera.position.z = 400;
+    camera.position.z = -400;
     camera.lookAt(new THREE.Vector3(0, 0, 0));
 
     const loader = new THREE.GLTFLoader();
     loader.load('./models/ya_2.gltf', gltf => {
         mesh = gltf.scene.children[0];
         mesh.scale.set(0.01, 0.01, 0.01);
-        mesh.position.set(0, 0, 0);
-        mesh.rotation.set(0, 137, 0);
+        mesh.position.set(-2.7, 0, 0);
+        mesh.rotation.set(0, 0, 0);
         scene.add(mesh);
 
         mixer = new THREE.AnimationMixer(mesh);
