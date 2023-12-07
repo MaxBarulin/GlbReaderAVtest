@@ -44,7 +44,7 @@ function init() {
     loader.load('./models/ya_2.gltf', gltf => {
         mesh = gltf.scene.children[0];
         mesh.scale.set(0.01, 0.01, 0.01);
-        mesh.position.set(0, -1, 1);
+        mesh.position.set(0, 0, 1);
         scene.add(mesh);
 
         mixer = new THREE.AnimationMixer(mesh);
