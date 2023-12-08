@@ -44,7 +44,7 @@ function init() {
     loader.load('./models/satanhands.gltf', gltf => {
         mesh = gltf.scene.children[0];
         mesh.scale.set(14, 14, 14);
-        mesh.position.set(0, -17.5, -4);
+        mesh.position.set(0, -18, -4);
         mesh.rotation.set(0, 0, 0);
         scene.add(mesh);
 
@@ -61,11 +61,11 @@ function init() {
 
 
 
-    const light1 = new THREE.DirectionalLight(0xefefff, 1.5);
+    const light1 = new THREE.DirectionalLight(0xefefff, 0);
     light1.position.set(1, 1, 1).normalize();
     scene.add(light1);
 
-    const light2 = new THREE.DirectionalLight(0xffefef, 1.5);
+    const light2 = new THREE.DirectionalLight(0xffefef, 0);
     light2.position.set(- 1, - 1, - 1).normalize();
     scene.add(light2);
 
