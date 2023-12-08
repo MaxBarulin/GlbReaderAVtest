@@ -37,7 +37,7 @@ function init() {
     /* camera */
     camera = new THREE.PerspectiveCamera(45, width / height, 1, 10000);
     camera.position.y = 160;
-    camera.position.z = -400;
+    camera.position.z = 400;
     camera.lookAt(new THREE.Vector3(0, 0, 0));
 
     const loader = new THREE.GLTFLoader();
