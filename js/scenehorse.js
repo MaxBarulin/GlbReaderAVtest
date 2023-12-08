@@ -22,7 +22,7 @@ function init() {
 
     /* scene params */
     scene = new THREE.Scene();
-    scene.background = new THREE.Color('#d8d8d8')
+    scene.background = new THREE.Color('#444444')
 
     /*
     //test cube
