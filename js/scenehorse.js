@@ -44,7 +44,7 @@ function init() {
     loader.load('./models/satanhands.gltf', gltf => {
         mesh = gltf.scene.children[0];
         mesh.scale.set(8, 8, 8);
-        mesh.position.set(0, -6, 2);
+        mesh.position.set(0, -6, -2);
         mesh.rotation.set(0, 0, 0);
         scene.add(mesh);
 
