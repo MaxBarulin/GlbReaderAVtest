@@ -43,8 +43,8 @@ function init() {
     const loader = new THREE.GLTFLoader();
     loader.load('./models/satanhands.gltf', gltf => {
         mesh = gltf.scene.children[0];
-        mesh.scale.set(5, 5, 5);
-        mesh.position.set(0, 0, 0);
+        mesh.scale.set(8, 8, 8);
+        mesh.position.set(0, 4, 0);
         mesh.rotation.set(0, 0, 0);
         scene.add(mesh);
 
