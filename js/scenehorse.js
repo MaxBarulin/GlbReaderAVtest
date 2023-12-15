@@ -41,7 +41,7 @@ function init() {
     camera.lookAt(new THREE.Vector3(0, 0, 0));
 
     const loader = new THREE.GLTFLoader();
-    loader.load('./models/satanhands.gltf', gltf => {
+    loader.load('./models/clocker11.gltf', gltf => {
         mesh = gltf.scene.children[0];
         mesh.scale.set(14, 14, 14);
         mesh.position.set(0, -18, -4);
