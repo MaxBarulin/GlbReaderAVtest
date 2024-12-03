@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://судовичков.спб.рф/</loc>
+    <loc>http://судовичков.спб.рф/</loc>
     <lastmod>2024-12-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://судовичков.спб.рф/exem.html</loc>
+    <loc>http://судовичков.спб.рф/exem.html</loc>
     <lastmod>2024-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://судовичков.спб.рф/Детали-ЭСН.html</loc>
+    <loc>http://судовичков.спб.рф/Детали-ЭСН.html</loc>
     <lastmod>2024-12-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
     <url>
-    <loc>https://судовичков.спб.рф/лента/izg.html</loc>
+    <loc>http://судовичков.спб.рф/лента/izg.html</loc>
     <lastmod>2024-12-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
     <url>
-    <loc>https://судовичков.спб.рф/Контакты.html</loc>
+    <loc>http://судовичков.спб.рф/Контакты.html</loc>
     <lastmod>2024-12-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
     <url>
-    <loc>https://судовичков.спб.рф/Об-ЭМР_1/page_1.html</loc>
+    <loc>http://судовичков.спб.рф/Об-ЭМР_1/page_1.html</loc>
     <lastmod>2024-12-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
     <url>
-    <loc>https://судовичков.спб.рф/усл/метобр.html</loc>
+    <loc>http://судовичков.спб.рф/усл/метобр.html</loc>
     <lastmod>2024-12-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
     <url>
-    <loc>https://судовичков.спб.рф/усл/огн.html</loc>
+    <loc>http://судовичков.спб.рф/усл/огн.html</loc>
     <lastmod>2024-12-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
